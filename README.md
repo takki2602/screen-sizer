@@ -1,21 +1,47 @@
-# Vue 3 + Vite
+# ScreenSizer: Real-time Screen Dimensions Display
+This project displays the inner and outer dimensions of a user's screen in real-time using Vue 3 and Vite.  It updates the dimensions every 100 milliseconds.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Features
+*   Displays both inner (browser window) and outer (entire screen) dimensions.
+*   Real-time updates on window resize.
+*   Clean and responsive design.
 
-While this project uses Vue.js, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+## Usage
+The application displays the screen dimensions directly in the browser.  No user interaction is required beyond opening the application.
 
-## Deploy Your Own
+## Vercel
+This application is deployed on Vercel and is available at: 
 
-Deploy your own Vite project with Vercel.
+https://screen-sizer-3xwbnraec-takki2602s-projects.vercel.app/
 
-[![Deploy with Vercel](https://vercel.com/button)]([https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite&template=vite](https://vercel.com/new/clone?demo-description=Vite%2FVue.js%20site%20that%20can%20be%20deployed%20to%20Vercel&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F2T4BUF3mEBKPJF3jcjU6nS%2F0d4a02e7c48091d13814a4ab513e8734%2FScreen_Shot_2022-04-13_at_10.05.56_PM.png&demo-title=Vite%20-%20Vue&demo-url=https%3A%2F%2Fvite-vue-template.vercel.app%2F&from=templates&project-name=Vite%20-%20Vue&repository-name=vite-vue&repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmain%2Fexamples%2Fvite&skippable-integrations=1))
 
-_Live Example: https://vite-vue-template.vercel.app_
+## Installation
+1.  Clone the repository: `git clone https://github.com/[your-username]/ScreenSizer.git`
+2.  Navigate to the project directory: `cd ScreenSizer`
+3.  Install dependencies: `npm install` or `yarn install`
+4.  Start the development server: `npm run dev` or `yarn dev`
 
-### Deploying From Your Terminal
+## Technologies Used
+*   **Vue 3:** A progressive JavaScript framework for building user interfaces.  Used for the application's frontend logic and component structure.
+*   **Vite:** A build tool that significantly speeds up development and improves the overall developer experience.  Used for development and building the application.
+*   **JavaScript:**  The core programming language used for the application's functionality.
+*   **HTML:**  The markup language for structuring the application's content.
+*   **CSS:** The styling language used to create the visual presentation.
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+## Configuration
+No specific configuration is required beyond the standard Vite setup.  The `vite.config.js` file handles the build process.
 
-```shell
-$ vercel
-```
+## Dependencies
+The project dependencies are listed in the `package.json` file.  The main dependencies are:
+
+*   `vue`: The core Vue 3 library.
+*   `@vitejs/plugin-vue`: Vite plugin for Vue 3 support.
+*   `vite`: The Vite build tool.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
+
+## Testing
+No formal testing framework is included in this project.  Testing could be added using a framework like Jest or Vitest.
+
+*README.md was made with [Etchr](https://etchr.dev)*
