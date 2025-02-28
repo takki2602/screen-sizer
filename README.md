@@ -12,7 +12,7 @@ The application displays the screen dimensions directly in the browser.  No user
 ## Vercel
 This application is deployed on Vercel and is available at: 
 
-https://screen-sizer-3xwbnraec-takki2602s-projects.vercel.app/
+https://screen-sizer.vercel.app/
 
 
 ## Installation
