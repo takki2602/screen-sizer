@@ -22,6 +22,7 @@ onMounted(() => {
     <div class="card">
       <h1>Outer Size: {{ outerSize }}</h1>
       <h1>Inner Size: {{ innerSize }}</h1>
+      <a href="https://github.com/takki2602/screen-sizer">GitHub</a>
     </div>
   </div>
 </template>
